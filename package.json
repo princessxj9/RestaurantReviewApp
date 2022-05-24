@@ -11,5 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princessxj9/RestaurantReviewApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/princessxj9/RestaurantReviewApp/issues"
+  },
+  "homepage": "https://github.com/princessxj9/RestaurantReviewApp#readme"
 }
