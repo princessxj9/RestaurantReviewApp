@@ -6,10 +6,17 @@ function home () {
       <Def>
           <main>
               <h1>HOME</h1>
+              <div>
+                <img src="/images/mushroomburger-fries.jpg" alt="Mushroom Burger With Fries"></img>
+                <div> 
+                  Photo by <a href="https://unsplash.com/photos/bMvXpKuRN3g"> GoodEats YQR</a> on <a href="https://unsplash.com/s/photos/free-food">Unsplash</a>
+                </div>
+              </div>
+              <a href="/places">
+                <button className="btn-primary">Return to Places Page</button>
+              </a>
           </main>
-           <a href="/places">
-            <button className="btn-primary">Return to Places Page</button>
-           </a>
+          
       </Def>
     )
   }

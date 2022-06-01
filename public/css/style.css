@@ -3,3 +3,11 @@ h1 {
     color: cornflowerblue;
   }
   
+  img {
+    width: 750px;
+  }
+  P{
+    text-align: center;
+    color: rgb(253, 17, 0);  
+  }
+  
