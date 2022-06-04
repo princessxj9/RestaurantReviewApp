@@ -3,9 +3,37 @@ h1 {
     color: cornflowerblue;
   }
   
-  img {
-    width: 750px;
+  main {
+    padding: 10px; 
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+  h2 {
+    text-align: center;
   }
+
+img {
+  margin-top: 8px;
+  margin: 35px;
+  vertical-align: middle;
+}
+ 
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    margin: 35px;
+  }
+  
+  
+  .column {
+    flex: 50%;
+    margin: 35px;
+    padding: 4px;
+  }
+  
+
   P{
     text-align: center;
     color: rgb(253, 17, 0);  
