@@ -24,7 +24,7 @@ P {
     text-align: center;
     color: rgb(190, 107, 38); 
   } 
-  
+ /*nav bar*/ 
   nav {
     background-color: rgb(74, 1, 143);
     padding: 10px;
@@ -49,3 +49,9 @@ nav a:hover {
     color: pink;
     text-decoration: none;
 }
+
+/*show.jsx
+.rowA{
+  max-width: auto;
+  width: 450px;
+}*/
