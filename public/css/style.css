@@ -55,3 +55,25 @@ nav a:hover {
   max-width: auto;
   width: 450px;
 }*/
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 60px;
+  padding: 10px;
+  border: solid darkmagenta;
+}
+
+.container > div{
+  text-align: center;
+  background-color: cyan;
+  padding: 20px 0;
+}
+
+.col-sm-3{ 
+  margin-top: 50px;
+}
+
+form {
+  display: inline;
+}
+

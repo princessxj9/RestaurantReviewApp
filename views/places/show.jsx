@@ -21,9 +21,17 @@ function show(data) {
               </p>
             </div>
 
+            <div className="col-sm-3">
+              rant
+            </div>
           </div>
 
           <div className="rowB">
+
+          <div className="col-sm-6">
+             <h3>Description</h3>
+             <h4>{data.place.showEstablished()}</h4>
+            </div>
 
             <div className="col-sm-3">
 
@@ -53,18 +61,9 @@ function show(data) {
                   </label>
               </div>
             </div>
-
-            <div className="col-sm-3">
-              rave
-            </div>
-
-            <div className="col-sm-3">
-              rant
-            </div>
-
           </div>
-
-        </div>
+        </div
+        >
         <a href={`/places/${data.id}/edit`} className="btn btn-warning">
           Edit
         </a>
@@ -72,6 +71,7 @@ function show(data) {
           <button type="submit" className="btn btn-danger">
             Delete
           </button>
+          
         </form>
       </main>
     </Def>
