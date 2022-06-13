@@ -12,14 +12,13 @@ function show(data) {
           <div className="rowA">
 
             <div className="col-sm-8">
-            <img src={data.place.pic} alt={data.place.name}/>
-                <p className='text-center'>
-                    Located in {data.place.city}, {data.place.state}
-                </p>
+              <img src={data.place.pic} alt={data.place.name} />
             </div>
 
             <div className="col-sm-4">
-             place/location
+              <p className='text-center'>
+                Located in {data.place.city}, {data.place.state}
+              </p>
             </div>
 
           </div>
@@ -27,15 +26,40 @@ function show(data) {
           <div className="rowB">
 
             <div className="col-sm-3">
-            rating
+
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  1 stars
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  2 stars
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+                  <label class="form-check-label" for="flexRadioDefault1">
+                   3 stars
+                  </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    4 stars
+                  </label>
+              </div>
             </div>
 
             <div className="col-sm-3">
-             rave
+              rave
             </div>
 
             <div className="col-sm-3">
-             rant
+              rant
             </div>
 
           </div>
