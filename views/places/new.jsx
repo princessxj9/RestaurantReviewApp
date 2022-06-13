@@ -24,7 +24,7 @@ function new_form(data) {
 						<input className="form-control" type="url" id="pic" name="pic" />
 					</div>
 					<div className="form-group">
-						<label for="founded">Founded Year</label>
+						<label htmlFor="founded">Founded Year</label>
 						<input 
 						type="number"
 						className="form-control" 
