@@ -65,12 +65,11 @@ nav a:hover {
 
 .container > div{
   text-align: center;
-  background-color: cyan;
   padding: 20px 0;
 }
 
 .col-sm-3{ 
-  margin-top: 50px;
+  margin-top: 10%;
 }
 
 form {

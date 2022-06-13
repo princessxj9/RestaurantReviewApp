@@ -22,7 +22,10 @@ function show(data) {
             </div>
 
             <div className="col-sm-3">
-              rant
+           <h3> <label htmlFor="rant">Rant?</label> </h3>
+                 <textarea id="rant" name="rant" rows="4" cols="50" >
+
+                 </textarea>
             </div>
           </div>
 
@@ -62,8 +65,8 @@ function show(data) {
               </div>
             </div>
           </div>
-        </div
-        >
+        </div>
+
         <a href={`/places/${data.id}/edit`} className="btn btn-warning">
           Edit
         </a>
