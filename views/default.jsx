@@ -1,4 +1,5 @@
 const React = require('react')
+const places = require('../models/places')
 
 function Def(html) {
     return (
@@ -11,13 +12,13 @@ function Def(html) {
             <body>
                 <nav>
                     <ul>
-                        <li>
+                        <li key="{home}">
                             <a href='/'>Home</a>
                         </li>
-                        <li>
+                        <li key="{places}">
                             <a href='/places'>Places</a>
                         </li>
-                        <li>
+                        <li key="{newPlace}">
                             <a href='/places/new'>Add Places</a>
                         </li>
                     </ul>
